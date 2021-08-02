@@ -103,7 +103,7 @@
         <groupId>io.micronaut.build</groupId>
         <artifactId>micronaut-maven-plugin</artifactId>
       </plugin>
-      
+
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -118,6 +118,7 @@
               <version>${lombok.version}</version>
             </path>
           </annotationProcessorPaths>
+
           <compilerArgs>
             <arg>-Amicronaut.processing.group=com.igor.micronaut.udemy</arg>
             <arg>-Amicronaut.processing.module=mn-stockbroker</arg>

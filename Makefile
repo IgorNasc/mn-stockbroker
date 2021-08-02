@@ -1,11 +1,11 @@
 clean:
 	mvn clean
 
-install:
+clean-install:
 	mvn clean install
 
 generate-sources:
 	mvn clean generate-sources
 
-test:
+unit-test:
 	mvn clean test
